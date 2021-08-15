@@ -1,0 +1,87 @@
+<html lang="en"><head>
+<title>404</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      ::-moz-selection {
+        background: #b3d4fc;
+        text-shadow: none;
+      }
+      ::selection {
+        background: #b3d4fc;
+        text-shadow: none;
+      }
+      body, html {
+        height: 100%;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background:#880707;
+        color:#ffffff;
+        font-family:courier;
+        font-size:12pt;
+        text-align:center;
+        margin:100px;
+        margin-top: 14%;
+      }
+      .neg {
+        background:#fff;
+        color:#880707;
+        padding:2px 8px;
+        font-weight:bold;
+      }
+      p {
+        margin: 30px 100px;
+        text-align: left;
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      a,a:hover {
+        color:inherit;
+        font:inherit;
+        text-decoration: none;
+      }
+      .menu {
+        text-align:center;
+        margin-top:50px;
+      }
+      @-webkit-keyframes blinker {
+        0% { visibility: visible; }
+        50% { visibility: hidden; }
+        100% { visibility: visible; }
+      }
+      @keyframes blinker {
+        0% { visibility: visible; }
+        50% { visibility: hidden; }
+        100% { visibility: visible; }
+      }
+      blink {
+        -webkit-animation: blinker steps(1) 1s infinite;
+            animation: blinker steps(1) 1s infinite;
+      }
+    </style>
+  </head>
+  <body onkeyup="bsod()" onclick="bsod()">
+    <span class="neg">AIDABYTE</span>
+    <p>
+    A problem has been detected and this session has been shut down to prevent damage to your server.<br>
+	If this is the first time you've seen this stop error screen, restart your server. If this screen appears again, follow these steps:<br>
+	Check to make sure any new software is properly installed. If this is a new installation, ask your software manufacturer for AIDABYTE updates you might need.<br>
+	If problems continue, disable or remove any newly installed software.<br>
+	If you need to use Safe Mode to remove or disable components, restart your server, visit AIDABYTE control panel, and then select Safe Mode.<br>
+	Technical information:<br>
+	*** STOP: 0x000000FE (0x00000008, 0x000000006, 0x00000009, 0x847075cc)
+    </p>
+    <p>
+    * Press CTRL+ALT+DEL to restart your server. <br>
+	You will lose unsaved information in any programs that are running.
+    </p>
+    <a href="/">Press any key to continue <blink>_</blink></a>
+  
+  <script>function bsod() {window.location.href='/';}</script>
+
+</body></html>
