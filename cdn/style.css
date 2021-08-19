@@ -159,7 +159,10 @@ dt { font-weight: bold ; color: #fff ; }
 	display: block ;
 	margin: auto ;
 	max-width: 90% ;
-	max-height: 300px ;
+	/*max-height: 300px ;*/
+}
+.resright img, .resmid img {
+	max-height: 300px
 }
 
 .disappear {
