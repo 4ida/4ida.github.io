@@ -1,7 +1,8 @@
   let $canvas = document.getElementById('canvas');
   let $context = $canvas.getContext('2d');
   let img = new Image();
-  img.src = '/cdn/img/lain.jpg';
+  //img.src = '/cdn/img/lain.jpg';
+  img.src = '/cdn/img/portrait/4468a2e0baac76335deb62f6bfbe25e7.png';
 
   let w, h, offset, glitchInterval;
 
