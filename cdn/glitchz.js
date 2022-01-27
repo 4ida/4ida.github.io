@@ -2,7 +2,7 @@
   let $context = $canvas.getContext('2d');
   let img = new Image();
   //img.src = '/cdn/img/lain.jpg';
-  img.src = '/cdn/img/portrait/2d6c2094aff65db8c503f3a41ad748db.png';
+  img.src = '/cdn/img/portrait/8c4161684310e806cd52568f33d14aee.png';
 
   let w, h, offset, glitchInterval;
 
